@@ -76,7 +76,22 @@ main {
 }
 
 .cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex: 9;
+}
+
+.cta p {
+  max-width: 58ch;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 4%;
+}
+
+.cta p:last-of-type {
+  padding-bottom: 5%;
 }
 
 .account-creation {
